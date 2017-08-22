@@ -1,0 +1,22 @@
+{
+	"name": "my-polymerv3",
+	"version": "0.0.1",
+	"main": "src/index.js",
+	"repository": "https://github.com/iblancasa/polymerv3-experiment",
+	"author": "Israel Blancas <iblancasa@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "webpack && http-server ./dist -p 8000",
+		"build": "webpack"
+	},
+	"dependencies": {
+		"@polymer/polymer": "next"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"http-server": "^0.10.0",
+		"webpack": "^3.5.5",
+		"copy-webpack-plugin": "^4.0.1"
+	}
+}
